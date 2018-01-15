@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         let emily = "Emily"
         print(emily)
+        let merge = "let's make a merge conflict here."
         return true
     }
 
