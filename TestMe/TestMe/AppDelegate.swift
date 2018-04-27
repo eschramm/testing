@@ -12,6 +12,7 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var flag = true
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
@@ -19,6 +20,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let emily = "Emily"
         print(emily)
         let merge = "let's make a merge conflict YES here."
+        print("\(merge) rebase commit 1")
+        flag = false
         return true
     }
 
